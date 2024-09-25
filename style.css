@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;padding: 0;box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+:root{
+    --color-dark:rgba(12, 10, 10, 0.884);
+    --fav-color:rgb(3, 3, 61);
+    --footer-color:rgb(247, 211, 211);
+}
+.dark{
+    background-color: var(--color-dark);
+}
+.my-nav{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 0px;
+
+}
+.fav-color{
+    color: var(--fav-color);
+}
+.free-trail{
+    border: 1px solid rgb(219, 176, 176);
+    outline: none;
+    padding: 8px 8px;
+}
+.fs-xsmall{
+    font-size: 12px
+}
+html,body{
+    overflow-x: hidden;
+}
+body{
+    background-color: #f3eeee;
+}
+header{
+    background-color: #f3eeee; 
+}
+.card{
+    border: 1px solid var(--fav-color);
+    border-radius: 2rem;
+}
+.card img{
+    border-radius: 2rem;
+}
+.top-categories-card{
+    border: 1px solid var(--fav-color);
+    border-radius: 15px;
+    position: relative;
+    height: 70px;
+}
+.top-categories-card img{
+    height: 50px;
+    width: 50px;
+    border: 3px solid yellow;
+    border-radius: 50%;
+    position: absolute;
+    background-color: #eb21a7;
+    left: 40%;
+}
+.left-right img{
+    height: 40px;
+    width: 40px;
+    background: transparent;
+    cursor: pointer;
+    border-radius: 50%;
+}
+.testi{
+    display: flex;
+    border: 1px solid var(--fav-color);
+    justify-content: space-between;
+    column-gap:7px ;
+    background: #a3e609;
+    border-radius: 10px;
+}
+footer{
+    background-color: var(--footer-color);
+}
+.social{
+    text-align: center;
+}
+.fa-brands{
+    background-color: #ffffff;
+    height: 25px;
+    width: 25px;
+    color: rgb(27, 2, 41);
+    padding: 6px;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.email{
+    border: none;
+    outline: none;
+    border-radius: 4px;
+}
+li{
+    cursor: pointer;
+}
+.left-part{
+    width: 40%;
+}
+.right-part{
+    width: 60%;
+    text-align: left;
+}
